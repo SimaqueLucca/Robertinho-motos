@@ -11,6 +11,13 @@ body{
     list-style-type: none;
 }
 
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
 /* main */
 
 .main-container{
@@ -24,9 +31,17 @@ body{
 
 .navbar {
     width: 100%;
+    justify-content: unset !important;
 }
 
 .navbar-brand {
     padding-left: 4vw;
 }
 
+.navbar-nav {
+    flex-direction: row !important;
+}
+
+.nav-link {
+    padding: 1rem !important;
+}
